@@ -1,0 +1,269 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    color: #33333399;
+}
+
+img {
+    border-radius: 20px;
+}
+
+.text-primary {
+    color: #2F93C9; !important;
+}
+
+.btn-outline-primary-custom {
+    border: 1px solid #2F93C9;
+    color: #2F93C9;
+}
+
+.btn-outline-primary-custom:hover {
+    background-color: #2F93C9;
+    color: #fff;
+}
+
+.btn-outline-primary-custom:focus:active {
+    background-color: #2F93C9;
+    color: #fff;
+}
+
+/* LOGIN */
+.login-custom {
+    display: flex;
+    flex: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-card-custom {
+    width: 500px;
+    height: auto;
+    min-height: 500px;
+    border: none;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.login-content-custom .content-logo {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #2F93C9;
+    margin-bottom: 50px;
+}
+
+.login-content-custom .content-title {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.login-content-custom .content-subtitle {
+    color: #878a8c;
+    font-weight: 500;
+}
+
+
+/* CONTENT */
+.modal-content-custom {
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.modal-title-custom h3 {
+    color: #333333;
+    font-weight: 600;
+}
+
+.modal-title-custom h6 {
+    color: #878a8c;
+    font-weight: 600;
+}
+
+.header-custom {
+    background-color: #2F93C9;
+    padding: 5px;
+    text-align: right;
+}
+
+.header-custom a {
+    color: #fff;
+    text-decoration: none;
+    margin-inline: 15px;
+}
+
+.dropdown .dropdown-menu {
+    width: 100%;
+}
+
+.dropdown .dropdown-menu .dropdown-item {
+    font-weight: 500;
+    color: #333333;
+}
+
+.dropdown .dropdown-menu .dropdown-item:focus {
+    background-color: transparent;
+}
+
+.dropdown .dropdown-menu .dropdown-item.logout {
+    color: red
+}
+
+.avatar-custom {
+    width: 60px;
+    height: 60px;
+    background-color: #878a8c;
+    border-radius: 50%;
+}
+
+.avatar-img-custom {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.avatar-img-custom-profile {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+}
+
+.avatar-user-custom {
+    font-weight: 600;
+}
+
+.navbar-custom {
+    background-color: #fff;
+    height: 100px;
+}
+
+.navbar-nav-custom {
+    margin-inline: 20px;
+}
+
+.navbar-nav-custom .nav-item {
+    margin-inline: 10px;
+}
+
+.navbar-nav-custom .nav-item a {
+    text-transform: uppercase;
+}
+
+.navbar-nav-custom .nav-item a.nav-link.active {
+    border-bottom: 3px solid #2F93C9;
+}
+
+.form-label-custom {
+    color: #333333;
+    font-weight: 600;
+}
+
+.form-control-custom {
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.form-control-custom::placeholder {
+    font-weight: 500;
+    color: #878a8c;
+}
+
+.carousel-inner-custom {
+    border-radius: 20px
+}
+
+.card-custom {
+    border: none;
+    border-radius: 20px;
+}
+
+.title-custom {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.line-custom {
+    border: 2px solid #2F93C9;
+    opacity: 100;
+    border-radius: 20px;
+    width: 80px;
+    margin: 10px 0px 0px 0px;
+}
+
+.news-custom h3 {
+    font-weight: 600;
+    color: #333333;
+}
+
+.news-custom a {
+    text-decoration: none;
+}
+
+.news-custom a .news-link-custom {
+    padding: 8px;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+.news-custom a .news-link-custom:hover {
+    padding: 8px;
+    transform: scale(1.02);
+    border-radius: 20px;
+}
+
+.news-custom .news-img-custom img {
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.news-custom .news-content-custom .news-title-custom {
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2F93C9;
+    margin-bottom: 10px
+}
+
+.news-custom .news-content-custom .news-text-custom {
+    margin-bottom: 50px;
+    color: #333333
+}
+
+.news-custom .news-content-custom .news-date-custom {
+    color: #878a8c;
+}
+
+.news-custom .form-label-custom {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.commentar-user-custom {
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.commentar-date-custom {
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #878a8c
+}
+
+.commentar-content-custom {
+    margin-left: 70px
+}
+
+.footer-custom {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #191919;
+    color: #fff;
+}
